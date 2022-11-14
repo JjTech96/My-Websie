@@ -1,0 +1,357 @@
+*{
+ padding: 0;
+ margin: 0;
+box-sizing: border-box;
+}
+body{
+    background: #4c16c9;
+    font-family: 'poppins', sans-serif;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar{
+
+    position: fixed;
+    width: 30%;
+    height: 100%;
+    left: -31%;
+    background-color: black;
+}
+
+#sidebar li{
+
+    color: white;
+    font-size: 30px;
+    padding: 30px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+
+.toggle-btn{
+    position: absolute;
+    left: 105%;
+    top: 15px;
+
+}
+
+.toggle-btn span{
+    display: block;
+    background-color: black;
+    width: 30px;
+    height: 5px;
+    margin: 3px;
+}
+
+#sidebar.active{
+    left:0;
+}
+
+
+.wrapper .sidebar .profile{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.wrapper .sidebar .profile img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.wrapper .sidebar .profile h3{
+    color: #ffffff;
+    margin: 10px 0 5px;
+}
+
+.wrapper .sidebar .profile p{
+    color: rgb(206, 240, 253);
+    font-size: 14px;
+}
+h2{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    text-align: left;
+}
+
+/* Add a black background color to the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the "active" element to highlight the current page */
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  /* Style the search box inside the navigation bar */
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 16px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+      float: right;
+      display: block;
+      text-align: right;
+      width: 34%;
+      margin: 1px;
+      padding: 16px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 15%;
+    height: 10;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
+
+
+
+
+
+
+
+.fa{
+    padding: 20px;
+    text-align: center;
+    margin: 5px 2px;
+    font-size: 30px;
+    width: 50px;
+}
+
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter{
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-youtube{
+    background: #bb0000;
+    color: white;
+}
+
+.fa-google{
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-whatsApp-{
+    background: #09bddd;
+    color: white;
+}
+
+.fa:hover{
+    opacity: 0.9;
+}
+
+
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  color:  
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+
+
+
+
+
+.container{
+    width: 485%;
+    height: 1vh;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    width: 400px;
+    height: 450px;
+    background: #f7f7f7;
+    box-shadow: 0 0 10px 5px #000000;
+    border-radius: 5px;
+    padding: 20px;
+}
+.head{
+    font-weight: normal;
+}
+h1{
+border-bottom: 5px solid #4c16c9;
+padding-top: 5px;
+width: 175px;
+}
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+}
+.inputBox input{
+height: 60px;
+width: 100%;
+margin-top: 10px;
+padding-left: 15px;
+font-size: 18px;
+border: 1px solid gray;
+border-radius: 5px;
+outline-color: #4c16c9;
+}
+.pass{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    text-align: right;
+    color: gray;
+}
+.pass input{
+    width: 25px;
+    padding: 5px;
+}
+.pass label{
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.bt{
+    background: #4c16c9;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    opacity: 0.8;
+    transition: 0.5s ease;
+}
+.bt:hover{
+    opacity: 1;
+}
+.signin{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    color: gray;
+}
+.signin a{
+    color: #4c16c9;
+    font-weight: bold;
+    padding-left: 10px;
+}

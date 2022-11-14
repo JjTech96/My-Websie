@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="stylesheet" type="text/css" href="signup.css">
+    <title>SignUp Page</title>
+</head>
+<body>
+   
+
+
+
+<!---- Toggle Menu                  ---->
+
+<link rel="stylesheet" type="text/css" href="Toggle_menu.css">
+<script type="text/javascript">
+    function togglemenu() {
+ document.getElementById('sidebar').classList.toggle('active');
+    }
+</script>
+
+<div class="profile">
+    <img src="Toggle_menu2.png" width="80">
+
+    <h4 style="COLOR: rgb(255, 255, 255)">JjTech<br>
+        <div class="topnav-right">WEB DEVELOPER
+    </h4>
+</div><br></h2>
+
+<!-- Load icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<div class="topnav">
+    <a class="active" href="login.html">Home</a>
+    <a href="About.htm">About</a>
+    <a href="Contact.html">Contact</a>
+    <a href="Services.html">Services</a>
+
+    <div class="topnav-right">
+        <form action="/form/submit" method="get">
+            <input type="text" name="text" class="" placeholder="search">
+
+        </form>
+    </div><br><br><br><br><br>
+
+</div>
+
+</div>
+
+<div id="sidebar" onclick="togglemenu()">
+    <div class="toggle-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <ul>
+        <li></li>
+        <li>Gallery</li>
+        <li>Contact</li>
+        <li>About</li>
+    </ul>
+
+
+
+
+
+
+
+ <div class="container">
+        <form>
+<div class="content">
+<h1 id="bord" class="head">Sign Up Form</h1>
+
+<div class="inputBox">
+    <input type="email" name="email" 
+    placeholder="Email" required>
+
+    <input type="text" name="user"
+     placeholder="Surname" required>
+
+     <input type="text" name="user"
+     placeholder="Last Name" required>
+
+     <input id="myPassword" type="password" name="pass"
+     placeholder="password" required>
+     <div class="pass">
+      <label>Show password?</label>
+      <input id="show" type="checkbox" onclick="myFunction()">
+           </div>
+  
+     <input class="bt" type="submit" value="Sign Up" >
+     
+    </div>
+    
+     <div class="signin">
+        <h4>Already have an account?</h4>
+        <a href="login.html">Login Here</a>
+     </div>
+   </div>
+  </div>
+</form>
+</div>
+
+<script type="text/javascript">
+  function myFunction() {
+      var x = document.getElementById("myPassword");
+      if(x.type==="password") {
+          x.type ="text";
+  
+  }else {
+      x.type ="password"
+  }
+  }
+  
+  
+  
+  </script>
+  
+
+</body>
+</html>
